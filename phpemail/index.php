@@ -1,9 +1,9 @@
 <?php
 //$server = "imap.gmail.com";
 //$server = "Outlook.Office365.com";
-$server = "mail01.peruvian.pe";
-$username = "geral.poma@peruvian.pe";
-$password = "Hiren149"; //contraseña
+$server = "";
+$username = "";
+$password = ""; //contraseña
 $mailbox="{".$server.":995/pop3/ssl/novalidate-cert}INBOX";
 $inbox = imap_open($mailbox, $username, $password) or die('Ha fallado la conexión: ' . imap_last_error());
 
